@@ -21,11 +21,7 @@ schema:
   dependencies:
     - reverse_moqima
     - radical_flypy
-    - stroke
-    - zrlf
     - emoji
-    - easy_en
-    - jp_sela
     - moqi_big
 
 __include: moqi.yaml:/switches_engine
@@ -51,7 +47,6 @@ speller:
     # ^(.+?);.*$
     #- derive|^(.+?);.*$|$1| # 纯双拼的情况
     __include: moqi_speller.yaml:/flypy_speller # 小鹤双拼
-
 
 __include: moqi.yaml:/big_char_and_user_dict # 大字集、自造词
 
@@ -86,24 +81,52 @@ __patch:
 key_binder:
   import_preset: default
   bindings:
-    #- { when: composing, accept: Tab, send: '[' } ## 取消注释后：tab引导辅助码
-    - { when: composing, accept: Control+m, send: Return }
-    - { when: composing, accept: Control+w, send: Control+BackSpace }
-    # - { when: has_menu, accept: slash, send: 3 } # 用/进行选3
-    - { when: composing, accept: Control+i, send: Shift+Right }
-    - { when: composing, accept: Control+o, send: Shift+Left }
-    # 显示墨奇码拆分的快速开关
-    - { when: has_menu, accept: "Control+p", toggle: chaifen }
-    - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
-    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
+    - { when: has_menu, accept: semicolon, send: 2 }
+    - { when: has_menu, accept: slash, send: 3 }
 
+    # Tab / Shift+Tab 切换光标至下/上一个拼音
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+
+    # Option/Alt + ←/→ 切换光标至下/上一个拼音
+    - { when: composing, accept: Alt+Left, send: Shift+Left }
+    - { when: composing, accept: Alt+Right, send: Shift+Right }
+
+    # 翻页 , .
+    - { when: paging, accept: comma, send: Page_Up }
+    - { when: has_menu, accept: period, send: Page_Down }
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
     - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
     - { match: "[a-z]{1,3}", accept: ".",  send_sequence: "/1" }
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
-    ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
+
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+3 } # 切换中英标点
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+numbersign } # 切换中英标点
+    - { when: always, toggle: traditionalization, accept: Control+Shift+4 } # 切换简繁
+    - { when: always, toggle: traditionalization, accept: Control+Shift+dollar } # 切换简繁
+
+    # 将小键盘 0~9 . + - * / 映射到主键盘
+    # 使计算器(V1+2*3)可使用小键盘输入
+    # 数字金额大写的 Lua 如 R1234.5678 可使用小键盘输入
+    - { accept: KP_0, send: 0, when: composing }
+    - { accept: KP_1, send: 1, when: composing }
+    - { accept: KP_2, send: 2, when: composing }
+    - { accept: KP_3, send: 3, when: composing }
+    - { accept: KP_4, send: 4, when: composing }
+    - { accept: KP_5, send: 5, when: composing }
+    - { accept: KP_6, send: 6, when: composing }
+    - { accept: KP_7, send: 7, when: composing }
+    - { accept: KP_8, send: 8, when: composing }
+    - { accept: KP_9, send: 9, when: composing }
+    - { accept: KP_Decimal, send: period, when: composing }
+    - { accept: KP_Multiply, send: asterisk, when: composing }
+    - { accept: KP_Add, send: plus, when: composing }
+    - { accept: KP_Subtract, send: minus, when: composing }
+    - { accept: KP_Divide, send: slash, when: composing }
+
+    # 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
     - { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
     - { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
     - { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
@@ -139,6 +162,8 @@ key_binder:
     - { when: has_menu, accept: Shift+X, send_sequence: "{Shift+Right}x{Shift+Right}" }
     - { when: has_menu, accept: Shift+Y, send_sequence: "{Shift+Right}y{Shift+Right}" }
     - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
+
+
 # 启用語言模型
 #__include: moqi:/octagram/enable_for_sentence
 
