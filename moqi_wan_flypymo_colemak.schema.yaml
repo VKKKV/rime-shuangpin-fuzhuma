@@ -35,6 +35,22 @@ __include: moqi.yaml:/guide # 引导前缀配置
 key_binder:
   import_preset: default
   bindings:
+    # Tab / Shift+Tab 切换光标至下/上一个拼音
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+
+    # Option/Alt + ←/→ 切换光标至下/上一个拼音
+    - { when: composing, accept: Alt+Left, send: Shift+Left }
+    - { when: composing, accept: Alt+Right, send: Shift+Right }
+
+    # 翻页 , .
+    - { when: paging, accept: comma, send: Page_Up }
+    - { when: has_menu, accept: period, send: Page_Down }
+
+    # 翻页 [ ]
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+
     - { when: has_menu, accept: o, send: 2 }
     - { when: has_menu, accept: slash, send: 3 }
 
@@ -86,18 +102,6 @@ key_binder:
     - { when: has_menu, accept: Shift+X, send_sequence: "{Shift+Right}x{Shift+Right}" }
     - { when: has_menu, accept: Shift+J, send_sequence: "{Shift+Right}y{Shift+Right}" }
     - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
-
-    # Tab / Shift+Tab 切换光标至下/上一个拼音
-    - { when: composing, accept: Shift+Tab, send: Shift+Left }
-    - { when: composing, accept: Tab, send: Shift+Right }
-
-    # Option/Alt + ←/→ 切换光标至下/上一个拼音
-    - { when: composing, accept: Alt+Left, send: Shift+Left }
-    - { when: composing, accept: Alt+Right, send: Shift+Right }
-
-    # 翻页 , .
-    - { when: paging, accept: comma, send: Page_Up }
-    - { when: has_menu, accept: period, send: Page_Down }
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
     - { match: "[a-z]{1,3}", accept: "/",  send_sequence: "/1" }
