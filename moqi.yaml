@@ -114,11 +114,12 @@ octagram:
         # language: zh-hans-t-huayu-v7-bgw # 华宇模型
         # language: zh-hans-wiki-202405 # 维基模型
         # language: zh-hans-t-essay-bgw # rime官方模型
-        language: zh-moqi # 墨奇训练的模型 聊胜于无 主要目的是让non_collocation_penalty生效
-        # collocation_max_length: 5
-        # collocation_min_length: 2
-        non_collocation_penalty: -4
-        # collocation_penalty: -4
+        # language: zhs-moqi # 墨奇训练的模型 聊胜于无
+        language: wanxiang-lts-zh-hans.gram # 万象模型
+        collocation_max_length: 4
+        collocation_min_length: 2
+        # non_collocation_penalty: -24
+        # collocation_penalty: -6
         # weak_collocation_penalty: -12
         # rear_penalty: -18
       translator/contextual_suggestions: true # 是否使用语言模型优化输出结果〔需配合 grammar 使用〕
@@ -343,7 +344,6 @@ guide:
     idx: 1
 
 big_char_and_user_dict:
-
 
   user_dict_set:
     dictionary: moqi_wan.extended
