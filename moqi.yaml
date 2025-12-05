@@ -115,6 +115,7 @@ octagram:
         # language: zh-hans-wiki-202405 # 维基模型
         # language: zh-hans-t-essay-bgw # rime官方模型
         # language: zhs-moqi # 墨奇训练的模型 聊胜于无
+        language: wanxiang-lts-zh-hans.gram # 万象模型
         collocation_max_length: 4
         collocation_min_length: 2
         # non_collocation_penalty: -24
@@ -356,7 +357,6 @@ big_char_and_user_dict:
       - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
 
     enable_user_dict: false # 是否开启自动调频
-
 
   user_dict_set:
     dictionary: moqi.extended
