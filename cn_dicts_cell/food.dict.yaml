@@ -71455,11 +71455,6 @@ use_preset_vocabulary: false
 麓鼎	lu;ml;mb;ll;wa;dp;ex;ss;lb; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv;	0
 炉鼎阁	lu;hh;hh;hh;tq;fs;cm;oy;hh; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ge;mk;mk;mg;oo;lr;as;ut;mk;	0
 炉鼎阁餐	lu;hh;hh;hh;tq;fs;cm;oy;hh; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ge;mk;mk;mg;oo;lr;as;ut;mk; can;dg;ll;uy;ph;yv;gq;hq;ah;	0
-陆顶记	lu;ej;ej;ej;bp;nu;tm;bf;ej; ding;dy;dr;dy,yd;jm;mo;aw;sd;dr; ji;yj;yj;yj;ct;iu;sv;yn;yj;	0
-陆鼎记	lu;ej;ej;ej;bp;nu;tm;bf;ej; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ji;yj;yj;yj;ct;iu;sv;yn;yj;	0
-麓鼎记	lu;ml;mb;ll;wa;dp;ex;ss;lb; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ji;yj;yj;yj;ct;iu;sv;yn;yj;	0
-陆鼎记回	lu;ej;ej;ej;bp;nu;tm;bf;ej; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ji;yj;yj;yj;ct;iu;sv;yn;yj; hui;kk;kk;kk;no;wr;rd;lk;wk;	0
-陆鼎记回转火锅	lu;ej;ej;ej;bp;nu;tm;bf;ej; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ji;yj;yj;yj;ct;iu;sv;yn;yj; hui;kk;kk;kk;no;wr;rd;lk;wk; zhuan;iv;iv;iv;th;ki;yi;lf;iv; huo;br,rb;dr;dd;tt;ff;ch;oo;dr; guo;jn;jn;jg,jn;de;ob;zj;qk;jn;	0
 鹿鼎记饮	lu;gb;gb;gb,lb;ra;ip;xl;yn;gb; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; ji;yj;yj;yj;ct;iu;sv;yn;yj; yin;uq;ur;uq;ge;no;qe;qn;ur;	0
 鹿鼎山	lu;gb;gb;gb,lb;ra;ip;xl;yn;gb; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; shan;kl;lk;aa;pp;uu;vs;mm;aa;	0
 鹿鼎山庄	lu;gb;gb;gb,lb;ra;ip;xl;yn;gb; ding;po;ov;oa,od;sr;bl,bn;qa;hn;mv; shan;kl;lk;aa;pp;uu;vs;mm;aa; zhuang;gt;gt;gt;rg;ig;xg;yf;gt;	0
@@ -73953,7 +73948,6 @@ use_preset_vocabulary: false
 曼圣	man;oy;oy;oy;vl;ae;or;jl;oy; sheng;yt;yt;ty,yt;lg;eg;rg;cf;yt;	1
 满盛	man;dl;dl;dl;ke;eb;km;ia;dl; sheng;im;im;mi;ra;it;na;dn;im;	1
 漫生	man;dy;dy;dm;kl;ee;kr;ij;dy; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa;	0
-漫生活	man;dy;dy;dm;kl;ee;kr;ij;dy; sheng;pf;pf;na;eg,aa;hm;ls;tg;pa; huo;du;dk;du;ko;er;ka;it;dk;	1
 曼圣隆	man;oy;oy;oy;vl;ae;or;jl;oy; sheng;yt;yt;ty,yt;lg;eg;rg;cf;yt; long;eu;eu;eu;ba;nm;tl;bt;eu;	0
 满盛楼	man;dl;dl;dl;ke;eb;km;ia;dl; sheng;im;im;mi;ra;it;na;dn;im; lou;mn;mn;ml;wy;dv;eb;so;ln;	0
 满盛楼羯	man;dl;dl;dl;ke;eb;km;ia;dl; sheng;im;im;mi;ra;it;na;dn;im; lou;mn;mn;ml;wy;dv;eb;so;ln; jie;yr;yv;yh;fr;tv;gf;ud;ev;	0
