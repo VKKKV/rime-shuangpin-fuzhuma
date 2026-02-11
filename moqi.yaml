@@ -234,8 +234,8 @@ reverse:
     tags: [ reverse_moqima,radical_flypy,reverse_stroke,reverse_zrlf,reverse_cj]
     overwrite_comment: true
     # 可以改为全拼+音调+释义的码表
-    dictionary: moqi_big.extended # 提示码词表
-
+    dictionary: moqi_wan.extended # 提示码词表
+  
 opencc_config:
   # 显示墨奇码拆分
   chaifen:
