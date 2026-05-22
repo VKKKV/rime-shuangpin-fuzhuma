@@ -3377,6 +3377,7 @@ use_preset_vocabulary: false
 拚一醉	pan;fc;;fb,fc;jp;qt;ul;rc;fa; yi;aa;aa;aa;dd;mm;fi;g,gg;aa; zui;yu;yu;yz;ps;mj;yn;sg;yu;	0
 抛家傍路	pao;fl;fl;fl;ju;qs;us;rv;fl; jia;bu;bu;bu;ih;jo;wj;pe;gn; bang;rf;rf;rp;xf;os;jl;wu;rf; lu;zk;zk;zg;go;rr;ps;kh;zk;	8
 抛枕翠云光	pao;fl;fl;fl;ju;qs;us;rv;fl; zhen;me;mv;mg,my;wk,wr;du;ep;sp;lv; cui;xu;xu;yz;ds;sj;zn;ny;xu; yun;ag,es;es;es,se;up;mi;by;fc;ev; guang;xe;xw;ea,xw;hk;fu;mg;iq;ee;	0
+抛开名利锁	pao;fl;fl;fl;ju;qs;us;rv;fl; kai;ac;ac;ac;dz,dp,up;mt;fl;ga;aa; ming;xk;xk;xk;fo;nr;ld;qk;xk; li;hd;hd;hd,dh;ui;hn;xp;tj;hd; suo;jb;jr;jb;dm;oo;zo;qi;jr;	1
 佩兰香老	pei;rj;rj;rb,rj;xy;ob;jr;wm;rj; lan;bs;bs;bs,qe;fu;tm;ht;uf;es; xiang;ho;ho;ho;uv;ha;xo;tj;ho; lao;lb;lb;bl,lb;ga;jp;ql;ft;ub;	0
 陪履斋先生沧浪看梅	pei;ek;ek;ek,ep;bo;nr;td;bu;ek; lv;uw;uw;uf;qj;se;ch;nt;uw; zhai;we;we;we;je;yl;vl;yd;we; xian;ne;ne;ne,en;bk;hu;qp;tf;pe; sheng;pf;pf;na;eg;hm;ls;tg;pa; cang;dv;dv;dc;kt;eu;kz;iw;dv; lang;dl;dl;dl;kh;ev;ki;iy;dh; kan;uo;uo;ou,uo;us;hu;uq;rh;pm; mei;mm;mm;mm;wh;dy;ek;st;lm;	0
 彭城夜宿燕子楼	peng;tp;up;pd,up;gu;gh;he;fk;up; cheng;ti;ti;ti;gh;gs;ga;fd;tg; ye;ww;wn;wd,ww;ih;yk;zv;yw;wn; su;bb;bb;bb;is,io;ja;wu;pw;go; yan;ch;nh,ah;ch,hb;vn;tf;lc;au;ce; zi;la;va;aa,vh;aa;nd;hi;bb;va; lou;mn;mn;ml;wy;dv;eb;so;ln;	8
@@ -5147,6 +5148,7 @@ use_preset_vocabulary: false
 笑山中	xiao;vy;vy;vy;nx;hk;rm;tt;vy; shan;kl;lk;aa;pp;uu;vs;mm;aa; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa;	0
 箫声断	xiao;vb;vs;vs;nf,np;hl;rh;tv;vs; sheng;tu;up;um;gp;gh;gc;fn;up; duan;vj;mj;ja,jm,jv;lp;vl;pt;on;vj;	7
 笑声转新年莺语	xiao;vy;vy;vy;nx;hk;rm;tt;vy; sheng;tu;up;um;gp;gh;gc;fn;up; zhuan;iv;iv;iv;th;ki;yi;lf;iv; xin;lj;lj;jq;bp;yl;it;us;lj; nian;pf;pl;ra,pa;es;oq;ev;rh;pa; ying;cn;cn;cn,nb;zc;tm;lx;ap;cn; yu;yk;yk;yw;co;ir;sd;yg;yk;	0
+笑中岁月长	xiao;vy;vy;vy;nx;hk;rm;tt;vy; zhong;kl;ll;aa,ka;op;ll;dg;k,kh;aa; sui;ux;ex;ux;pf;ui;vl;mq;sx; yue;ke;ka;oy,pa,yt;ll;bb;vy;ee;pe; chang;pn;pn;pd;uh;po;pc;ta;pn;	1
 小试去征西	xiao;lb;ld;ad;pf;nc;yx;ih;vd; shi;yg;yg;yu;cp;im;su;ya;yg; qu;ts;ts;ts;gp;gi;gk;fc;tv; zheng;rv;iv;xv;hr;hm;ws;tg;rv; xi;ak,wk;aa;aa;pp;mw;vx;sg;aa;	0
 消瘦损	xiao;do;do;dx;kl;eb;kv;ii;do; shou;by;by;bs,by;ml;ke;ar;uv;by; sun;fb;fr;fy;jm;qo;uo;rk;fr;	0
 消瘦影	xiao;do;do;dx;kl;eb;kv;ii;do; shou;by;by;bs,by;ml;ke;ar;uv;by; ying;op;op;pj;vu;ah;oe;jy;op;	0
@@ -6526,6 +6528,7 @@ use_preset_vocabulary: false
 醉了还醒却	zui;yu;yu;yz;ps;mj;yn;sg;yu; le;al;vl;aa,vu;rp;nn;rl;b,bn;vv; hai;zb;zb;zb;dq;yf;cu;gi;zb; xing;yu;yu;yx;pa,pg;mm;yl;sg;yu; que;qe;te;eq;gb;gl;gz;fc;te;	0
 醉里不知谁是我	zui;yu;yu;yz;ps;mj;yn;sg;yu; li;tt;la;aa,tt;vg;wg;dl;jf;aa; bu;ab;ad;ad,ax;dh,df;mf;cb;i,gi;ad; zhi;uk;uk;uk,ku;eo;or;od;td;uk; shui;yv;yf;yv;ca;ig;su;yw;ya; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; wo;ga;pd;pd,pp;ah,ud,ha,ua,uh;hi,zz;tp;q,tr;pg;	0
 醉里秋波	zui;yu;yu;yz;ps;mj;yn;sg;yu; li;tt;la;aa,tt;vg;wg;dl;jf;aa; qiu;hh;hh;hh;ut;hf;xc;to;hh; bo;dp;dy;dp;kl;ee;kr;ih;dy;	0
+醉里乾坤大	zui;yu;yu;yz;ps;mj;yn;sg;yu; li;tt;la;aa,tt;vg;wg;dl;jf;aa; qian;uv;uq;uq,qu;sr;jn;na;fj;uy; kun;tu;tu;tu;gp;gl;gg;fj;tu; da;ar;un;ad;xx;kk;md;dd;an;	1
 醉里簪花倒著冠	zui;yu;yu;yz;ps;mj;yn;sg;yu; li;tt;la;aa,tt;vg;wg;dl;jf;aa; zan;vo;vo;vo,vq;nv;ha;ro;ta;vo; hua;cb;cb;ch;za;tp;lv;aw;cb; dao;rd;rd;rd;xi;on;jp;wg;rd; zhu;co;co;cv;zv;ta;lo;af;co; guan;bc;bc;bc;ik;bi;wk;pf;gc;	2
 醉连春夕	zui;yu;yu;yz;ps;mj;yn;sg;yu; lian;zi;zi;zi;tq;yq;yu;lp;zi; chun;io;fo;of,fo;uv;qa;ao;dw;ao; xi;pd;pd;pd;ff;ni;lx;qt;pd;	1
 醉梦里	zui;yu;yu;yz;ps;mj;yn;sg;yu; meng;mx;mx;mx,xl;wf;di;el;ss;lx; li;tt;la;aa,tt;vg;wg;dl;jf;aa;	1
@@ -23129,7 +23132,7 @@ use_preset_vocabulary: false
 此之谓大孝	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhi;dn;dn;dd;hh;io;ri;pp;dn; wei;yo;yo;yw;cl;ib;sv;yl;yo; da;ar;un;ad;xx;kk;md;dd;an; xiao;lz;lz;zl,lz;ga;jd;qh;ft;uz;	0
 此之谓混溟	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhi;dn;dn;dd;hh;io;ri;pp;dn; wei;yo;yo;yw;cl;ib;sv;yl;yo; hun;db;db;dk;ka;ep;kv;ij;db; ming;dl;db;dl,dm;kf;ec;ka;ip;db;	0
 寇雠	kou;by;by;bp,by;il;je;wh;pf;gy; chou;ry;rf;vv,yv;xa;og;uu;wy;ru;	2
-回㨃	hui;kk;kk;kk;no;wr;rd;lk;wk; dui;fz;fz,f;fx;ja;qd;uh;ry;;	0
+回㨃	hui;kk;kk;kk;no;wr;rd;lk;wk; dui;fz;fz,f;fx;ja;qd;uh;ry;;	304
 此之谓寇雠	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhi;dn;dn;dd;hh;io;ri;pp;dn; wei;yo;yo;yw;cl;ib;sv;yl;yo; kou;by;by;bp,by;il;je;wh;pf;gy; chou;ry;rf;vv,yv;xa;og;uu;wy;ru;	0
 此之谓丘里之言	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhi;dn;dn;dd;hh;io;ri;pp;dn; wei;yo;yo;yw;cl;ib;sv;yl;yo; qiu;ja;pa;pa,ja;ud;om;tf;rg;pa; li;tt;la;aa,tt;vg;wg;dl;jf;aa; zhi;dn;dn;dd;hh;io;ri;pp;dn; yan;wk;wk;da,dk,wk;cc,io;yr;sy;yy;wk;	0
 此之位三有礼焉	ci;vb;vb;vb;ra;yp;sv;hx;vb; zhi;dn;dn;dd;hh;io;ri;pp;dn; wei;rl;rl;rl;xb;ot;ji;wu;rl; san;ae;ae;aa;uu;mm;ts;dg;ae; you;uo;uo;ou,uo;sl,dl;kb;nv;e,de;ao; li;pv;pv;ug;hr;iu;fa;py;pv; yan;vh;vh;vh;dn;mf;fc;gh;ve;	0
@@ -30092,6 +30095,7 @@ use_preset_vocabulary: false
 滔滔者天下皆是也	tao;dj;dj;dj,dy;ks;ex;kp;ie;dj; tao;dj;dj;dj,dy;ks;ex;kp;ie;dj; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo; tian;ad;ad;ad;ue;mk;fm;gd;ad; xia;ab;ab;ab,ad;dh;my;fy;gh;ab; jie;bb;bb;bb;as;pa;vu;xx;bb; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; ye;vv;vv;gg;rr;pd;ey;bn;vv;	0
 陶为己忧	tao;ef;ef;ef,et;bp;nu;ta;bq;ef; wei;ld;dd;dd;hh,uu;ii;ii;o,yl;dd; ji;kv;vv;ag,vg;tt;su;vj;nn;vv; you;xy;xy;xy;nh;pu;ho;nd;xy;	0
 陶冶亦以其械器易粟者	tao;ef;ef;ef,et;bp;nu;ta;bq;ef; ye;dk;dk;dt;fo;ir;wd;uc;dk; yi;wb;wd;wb,wy,dd;ih,ii,if;yc;zc;yo;wd; yi;lr;vr;rd,ry;re;vo;vj;c,ny;vr; qi;cb;qb;ba,ad,hb;vf;tc;zh;ad;ab; xie;mc;mc;mj;wa,wz,wp,wh;dt;el;sa;lg; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk; yi;ow;ow;ow;vi,vu;ah;oe;jq;ow; su;xm;xm;mx,xm;pl;md;vp;so;xm; zhe;lo;lo;lo,ol;gv;ja;qo;ft;uo;	0
+逃出是非乡	tao;zv;zd;zv;kq,uq,fq;yo;pu;iq;zv; chu;uu;vk;ck,aa;pp;uu;sm;bm;va; shi;oz;or;op,ov;ve;ao;ot;j,jg;or; fei;ls;la;aa;pu,up;ly;rf;dj;aa; xiang;vp;vp;ap,vp;ru;vh;ix;xt;vp;	1
 逃于大泽	tao;zv;zd;zv;kq,uq,fq;yo;pu;iq;zv; yu;au;al;aa;ss;md;fn;gf;av; da;ar;un;ad;xx;kk;md;dd;an; ze;df;dl;df;kp;eq;ku;ic;da;	0
 逃于深蓁	tao;zv;zd;zv;kq,uq,fq;yo;pu;iq;zv; yu;au;al;aa;ss;md;fn;gf;av; shen;dm;dm;dm;kw;ed;ke;ip;dl; zhen;ch;ch;cq;zw,zf;td;lx;ad;ch;	0
 特犯人之形而犹喜之	te;nc;nc;ns;bk;hi;qk;tr;nc; fan;qv;qv;qe;bt;ku;mz;qt;qv; ren;pn;pn;pd;ee;oo;jr;w,ww;pn; zhi;dn;dn;dd;hh;io;ri;pp;dn; xing;kp;kp;pk;uu;mh;fe;ga;kp; er;al;al;aa;ee;ml;le;dm;aa; you;qy;qy;qy;bh;ku;mo;qt;qy; xi;tk;uk;uk;go;gr;hd;fk;uk; zhi;dn;dn;dd;hh;io;ri;pp;dn;	0
